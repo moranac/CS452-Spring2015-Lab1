@@ -1,1 +1,7 @@
-name, date, description
+Anthony Moran, 01/25/2015, 
+My solution to this lab was to first create the three sets of vertices for each shape (square, triangle, hexagon),
+create a buffer for each shape, and initialize the vertex-shader to display the triangle first. Then I created an event function
+called "click" that would run whenever a mouse click occurred. This event would first check the value of the variable "index" to 
+decide which shape was to be displayed next. Once this was determined, the corresponding buffer was binded and the vertex-shader 
+was updated. Also the variable "sides" was updated to accommodate the different number of sides for each shape. Lastly, an event
+listener was added to the canvas to allow the user to click anywhere on the canvas to change the displaying shape.
